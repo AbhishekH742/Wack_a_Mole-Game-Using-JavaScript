@@ -1,0 +1,30 @@
+.score{
+    font-size: 3rem;   
+    font-weight: bold; 
+    margin: 5px;
+}
+
+.timer{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.container{
+    width: 46vw;
+    height: 80vh;
+    /* border: solid 2px black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .box{
+    width: 15vw;
+    height: auto;
+    border: 2px solid black;
+}
+
+.mole{
+    /* background-color: blue; */
+    background: url(mole.jpeg) no-repeat center center/ cover;
+}
